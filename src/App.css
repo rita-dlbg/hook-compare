@@ -2,9 +2,95 @@
   text-align: center;
 }
 
+.App h1 {
+  margin: 25px 0 25px;
+  color: #ffffff;
+  font-size: 30px;
+  display: inline-grid;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+/* custom css */
+
+.links {
+  background-image: url(../public/img/react-bg.gif);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.comp-btns {
+  display: flex;
+  margin: 15px;
+
+}
+
+.comp-btns button {
+  margin: 15px;
+  background-color: darkblue;
+  color: #ffffff;
+  font-size: 16px;
+  border: unset;
+  border-radius: 8px;
+  padding: 6px 10px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.comp-btns button:hover {
+  background-color: darkslateblue;
+  box-shadow: 0 0 10px black;
+  transform: scale(1.1,1.1);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* Define Hook Comparisons */
+
+.define-hooks {
+  background-color: #282c34;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.define-hooks h1 {
+  color: aliceblue;
+}
+
+.diffrences {
+  display: flex;
+  background-color: rgb(3, 21, 89);
+  border: 1px solid white;
+  width: 85%;
+  margin: auto;
+}
+
+.left-define, .right-define {
+  width: 50%;
+  border: 1px solid wheat;
+  padding: 20px;
+  text-align: left;
+}
+
+.hook-example {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.back {
+  margin: 30px;
+  font-size: 25px;
+  cursor: pointer;
+  display: grid;
 }
 
 @media (prefers-reduced-motion: no-preference) {
