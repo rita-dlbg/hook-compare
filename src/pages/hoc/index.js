@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import EnhancedComponent from '../../component/hoc';
+import Hoc from '../../component/hoc';
 
 
 const HighOrderComponent = () => {
@@ -18,8 +18,9 @@ const HighOrderComponent = () => {
        into UI, and a higher-order component converts a component into another component. 
        The examples of HOCs are Redux’s connect and Relay’s createContainer.
     </p>
+    <p>Helps to code repetiotion issue</p>
     <div className="hook-example">
-     <EnhancedComponent/>
+     <Hoc/>
      </div>
      </div>   
     </div>
